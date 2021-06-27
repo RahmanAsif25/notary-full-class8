@@ -1,0 +1,376 @@
+Common start*/
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/*Common end*/
+
+
+
+/*header start*/
+
+header{
+	padding: 15px 0;
+}
+
+.container{
+	width: 69%;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo{
+	width: 20%;
+	/*border: 1px solid;*/
+	float: left;
+}
+
+.logo img{
+	width: 100%;
+}
+
+.menu{
+	width: 70%;
+	/*border: 1px solid;*/
+	float: right;
+	margin-top: 10px;
+}
+
+.menu ul{
+	float: right;
+}
+
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+
+.menu ul li a{
+	font-family:sans-serif ;
+	font-size: 14px;
+	font-weight:700 ;
+	color: #535D69;
+	text-decoration: none;
+	padding: 0 19px;
+	display: inline-block;
+	transition: .3s;
+}
+
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+.menu ul li a:hover{
+	color: #BD233F;
+}
+
+/*header end*/
+
+/*Banner Start*/
+
+.banner{
+	background-image: url(../images/advocate.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
+.b_content{
+	width: 42%;
+	/*border: 1px solid white;*/
+	margin-top: 119px;
+	margin-bottom: 110px;
+}
+.b_content h1{
+	font-family: sans-serif;
+	font-size: 61px;
+	/*font-weight: 700 ;*/
+	color: white;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+.b_content p{
+	font-family: sans-serif;
+	font-size: 17px;
+	/*font-weight: 400;*/
+	color: white;
+	margin-bottom: 15px;
+	margin-top: 0;
+}
+.b_content button{
+	width: 250px;
+	height: 50px;
+	background-color: #BE2342;
+	border: none;
+	font-family: sans-serif;
+	font-size: 13px;
+	/*font-weight: 400;*/
+	color: white;
+	text-transform: uppercase;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+.b_content button:focus{
+	outline: 0;
+}
+
+/*Banner End*/
+
+/*How it works start*/
+
+.how{
+	/*border: 1px solid red;*/
+	margin-top: 100px;
+}
+
+.how h1{
+ text-align: center;
+ font-family: sans-serif;
+}
+.how p{
+ text-align: center;
+ font-size: 15px;
+ font-family: serif;
+ color: gray;
+}
+/*how it works end*/
+
+/*
+
+/*logo start*/
+
+.l_start{
+	padding: 45px 0;
+}
+.l_wrapper{}
+.l_single{
+	float: left;
+	width: 22%;
+	/*border: 1px solid;*/
+	margin: 0 70px;
+}
+ .l_image{
+ 	/*border: 1px solid;*/
+ }
+ .l_image img{
+ 	width: 100%;
+ }
+ .l_text{
+ 	/*border: 1px solid red;*/
+ }
+ .l_text h4{
+ 	text-align: center;
+ 	font-family: serif;
+ }
+/*logo end*/
+
+/*Service start*/
+
+
+.service{
+
+}
+ .s_wrapper{
+ 	overflow: hidden;
+ 	margin-top: 150px;
+ }
+ .s_left{
+ 	float: left;
+ 	width: 40%;
+ 	/*border: 1px solid;*/
+ 	margin: 0 110px;
+ }
+ .s_left h2{
+ 	font-family: sans-serif;
+ 	margin: 0;
+ 	font-size: 25px;
+ 	line-height: 38px;
+ }
+ .s_left p{
+ 	font-family: serif;
+ 	font-size: 16px;
+ 	color: gray;
+ }
+ .s_left button {
+ 	width: 150px;
+ 	height: 50px;
+ 	background-color: red;
+ 	color: white;
+ 	margin: 30px 0;
+ 	
+ 	
+ 	font-weight: 700;
+ 	border: 0;
+
+ }
+ .s_right{
+ 	float: right;
+ 	float: right;
+ 	width: 43%;
+ 	/*border: 1px solid;*/
+ 	
+ }
+  
+  .s_iframe{
+  	/*width: 560px;*/
+    /*height: 315px;*/
+    /*border: 1px solid;*/
+   }
+
+
+
+ .s_right img{
+ 	width: 100%;
+ }
+
+.s_left button a{
+	color: white;
+	text-decoration: none ;
+font-family: sans-serif;
+}
+/*service end*/
+
+
+/*Features start*/
+
+.feature{}
+.f_wrapper{
+	overflow: hidden;
+}
+.f_text{
+	padding: 150px;
+}
+.f_text h1{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 27px;
+	padding: 10px;
+}
+.f_text p{
+	text-align: center;
+	font-family: serif;
+	line-height: 7px;
+	color: gray;}
+
+/*single start*/
+
+.f_single{
+	width: 21%;
+	/*border: 1px solid;*/
+	float: left;
+	margin: 25px 79px;
+	/*border-radius: 30px;*/
+	/*box-shadow: black;*/
+}
+.f_img{
+	width: 32%;
+	/*border: 1px solid;*/
+	margin-left: 93px;
+}
+.f_img img{
+	width: 100%;
+}
+.i_text{}
+.i_text h2{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 17px;
+}
+.i_text p{
+	text-align: center; 
+	font-family: serif;
+	font-size: 16px;
+	color: gray;
+}
+
+.f_single:hover{
+	color: gray;
+}
+
+.last_f{
+	text-align: center;
+	margin: 150px 0;
+	font-family: sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+}
+/*Features end*/
+
+/*Service start*/
+
+.service1{
+	background-color: black;
+	padding: 50px 0;
+}
+.wrapper2{
+	overflow: hidden;
+  
+}
+.service1_single{
+	float: left;
+	width: 33%;
+}
+.service1_single h2{
+	color: red;
+	font-family: sans-serif;
+	font-size: 21px;
+}
+.service1_single p{
+	color: gray;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	line-height: 30px;
+}
+.service1_single img{
+	width: 40%;
+}
+
+.service1_single ul{
+
+}
+.service1_single ul li{
+	color: gray;
+	list-style: none;
+	font-family: sans-serif;
+	line-height: 26px;
+
+}
+
+.service1_single ul li a{
+	color: gray;
+	text-decoration: none;
+}
+
+.service1_single button{
+	width: 150px;
+	height: 40px;
+	background-color: red;
+	border: 0;
+	color: white;
+	font-family: sans-serif;
+	margin: 20px 0;
+}
+
+.service1_single button a{
+	color: white;
+	text-decoration: none;
+}
+
+/*footer start*/
+
+.footer{
+	background-color: gray;
+	padding: 15px;
+}
+.footer_text p{
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+/*footer end*/
